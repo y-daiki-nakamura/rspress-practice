@@ -8,7 +8,7 @@
     {
         "type": "file",
         "name": "introduction",
-        "label": "Introduction",
+        "label": "Introduction"
     },
     {
       "type": "dir",
