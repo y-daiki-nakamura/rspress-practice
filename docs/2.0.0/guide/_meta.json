@@ -1,0 +1,25 @@
+[
+    "index",
+    "guideline",
+    "CONTRIBUTING",
+    {
+        "type": "divider"
+      },
+    {
+        "type": "file",
+        "name": "introduction",
+        "label": "Introduction"
+    },
+    {
+      "type": "dir",
+      "name": "advanced",
+      "label": "Advanced",
+      "collapsible": true,
+      "collapsed": false
+    },
+    {
+      "type": "custom-link",
+      "link": "/my-link",
+      "label": "My Link"
+    }
+  ]

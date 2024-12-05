@@ -12,6 +12,9 @@ importers:
         specifier: ^1.37.3
         version: 1.37.4(webpack@5.97.1)
     devDependencies:
+      '@rspress/plugin-last-updated':
+        specifier: ^1.37.4
+        version: 1.37.4
       '@types/node':
         specifier: ^18.11.17
         version: 18.19.67

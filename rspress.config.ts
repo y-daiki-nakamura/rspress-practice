@@ -10,7 +10,15 @@ export default defineConfig({
     light: '/rspress-light-logo.png',
     dark: '/rspress-dark-logo.png',
   },
+  multiVersion: {
+    default: '2.0.0',
+    versions: ['1.0.0', '2.0.0'],
+  },
+  search: {
+    versioned: true,
+  },
   themeConfig: {
+    lastUpdated: true,
     socialLinks: [
       {
         icon: 'github',
