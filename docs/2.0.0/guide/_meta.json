@@ -2,6 +2,9 @@
     "index",
     "guideline",
     "CONTRIBUTING",
+    "katex",
+    "mermaid",
+    "filetree",
     {
         "type": "divider"
       },

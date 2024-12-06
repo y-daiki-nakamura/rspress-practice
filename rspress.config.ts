@@ -1,5 +1,9 @@
 import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
+import { pluginLastUpdated } from '@rspress/plugin-last-updated';
+import mermaid from 'rspress-plugin-mermaid';
+import katex from 'rspress-plugin-katex';
+import fileTree from 'rspress-plugin-file-tree';
 
 export default defineConfig({
   base: '/rspress-practice/',
@@ -27,4 +31,13 @@ export default defineConfig({
       },
     ],
   },
+  plugins: [
+    mermaid({
+      mermaidConfig: {
+        theme: 'forest',
+      },
+    }),
+    katex(),
+    fileTree(),
+  ],
 });

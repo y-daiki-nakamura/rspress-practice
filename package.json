@@ -8,10 +8,16 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.37.3"
+    "rspress": "^1.37.4",
+    "rspress-plugin-file-tree": "^0.4.0",
+    "rspress-plugin-katex": "^0.3.0",
+    "rspress-plugin-mermaid": "^0.3.0"
   },
   "devDependencies": {
     "@rspress/plugin-last-updated": "^1.37.4",
-    "@types/node": "^18.11.17"
+    "@types/node": "^18.19.67"
+  },
+  "overrides": {
+    "mermaid": "^11.4.1"
   }
 }
