@@ -17,7 +17,9 @@
     "@rspress/plugin-last-updated": "^1.37.4",
     "@types/node": "^18.19.67"
   },
-  "overrides": {
-    "mermaid": "^11.4.1"
+  "pnpm": {
+    "overrides": {
+      "mermaid": "^11.4.1"
+    }
   }
 }
